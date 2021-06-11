@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario - Registro de cliente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <form>
+            <div class="flex_contenedor">
+                <label class="flex_label" for="nombre_id">Nombre
+                    <input type="text" id="nombre_id" placeholder="Ej. Diamela">
+                </label>
+                <label class="flex_label" for="apellido_id">Apellido
+                    <input type="text" id="apellido_id" placeholder="Ej. Giardini"></label>
+            </div>
+
+            <div class="flex_contenedor">
+                <label class="flex_label" for="dni_id">DNI
+                    <input type="number" id="dni_id" placeholder="Ej. 12345678" maxlength="8">
+                </label>
+                <!--no me funciona el maximo de caracteres-->
+
+                <label class="flex_label" for="email_id">Email
+                    <input type="text" id="email_id" placeholder="Ej. girdinidiamela@gmail.com">
+                </label>
+            </div>
+
+            <div class="flex_contenedor">
+                <label class="flex_label" for="contrasenia_id">Contraseña
+                    <input type="password" id="contrasenia_id" placeholder="Contraseña" maxlength="16">
+                </label>
+                <!--No me funciona el maximo de caracteres y no se como poner el minimo de 8-->
+                
+                <label class="flex_label" for="contrasenia_id">Repetitir Constraseña
+                    <input type="password" id="contrasenia_id" placeholder="Repetir Contraseña" maxlength="16">
+                      
+            </div>
+            <small>La contraseña debe tener como mínimo 8 carácteres y como máximo 16</small>
+            <div class="contenedor_regristrarse">
+                <div><input type="checkbox">
+                    <label for="">Terminos y Condiciones de uso</label>
+                </div>
+                <button>REGISTRARSE</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor{
+    width:460px;
+    height: 350px;
+    
+    
+    margin: auto;
+    margin-top: 200px;
+} 
+
+form{
+    
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 30px;
+    box-shadow: 1px 1px 15px -5px grey;
+    background-color: rgb(240, 226, 230);
+    color: rgb(46, 46, 46);
+    
+}
+
+
+.flex_label{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+
+.flex_contenedor{
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contenedor_regristrarse{
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    margin-top: 20px;
+    align-items: center;
+    
+}
+
+input{
+    border-radius: 10px;
+    padding: 7px;
+}
+
+small{
+    margin: 20px;
+}
+button{
+    border-radius: 30px;
+    padding: 10px;
+    background-color: palevioletred;
+    border: 1px solid palevioletred ;
+    color: white;
+    box-shadow: 2px 1px rgb(190, 214, 214);
+}
+
+input[type=checkbox]{
+    color: palevioletred;
+    background-color: palevioletred;
+}

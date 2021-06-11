@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios - Carga de Productos</title>
+</head>
+<body>
+    <form> 
+        <label for="nombre_de_producto_id">Nombre del producto</label>
+        <input type="text" id="nombre_de_producto_id">
+
+        <label for="marca_id">Marca</label>
+        <select name="marca" id="marca_id">
+            <option value="kletter">Klatter</option>
+            <option value="top_mega">Top Mega</option>
+            <option value="fierce">Fierce</option>
+            <option value="shimano">Shimano</option>
+            <option value="lamborguini">Lamborghini</option>
+            <option value="aurora">Aurora</option>
+            <option value="gt">GT</option>
+        </select>
+        <label for="rodado_id">Rodado</label>
+        <input type="number" id="rodado_id">
+
+        <p>Categoria de producto</p>
+
+        <input type="radio" id="mountain_bike_id" name="categoria" value="categoria_de_productos">
+        <label for="mountain_bike_id">Mountain Bike</label> 
+        
+        <input type="radio" id="paseo_id" name="categoria" value="categoria_de_productos">
+        <label for="paseo_id">Paseo</label> 
+        
+        <input type="radio" id="plegable_id" name="categoria" value="categoria_de_productos">
+        <label for="plegable_id">Plegable</label> 
+
+        <input type="radio" id="carrera_id" name="categoria" value="categoria_de_productos">
+        <label for="carrera_id">Carrera</label> 
+        <br>
+        <br>
+        <br>
+
+        <label for="descripcion_del_producto_id">Descripcion del producto</label>
+        <br>
+        <br>
+        <textarea name="producto" id="descripcion_del_producto_id" cols="30" rows="10" placeholder="Escribe aqui..."></textarea>
+        
+        <br>
+        <button type="submit">Cargar</button>
+    </form>
+</body>
+</html>

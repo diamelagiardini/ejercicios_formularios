@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="numero_tarjeta_id">Numero de tarjeta de credito</label>
+        <input type="number" id="numero_tarjeta_id"> 
+
+        <label for="nombre_tarjeta_id">Nombre completo del titular</label>
+        <input type="text" id="nombre_tarjeta_id">
+
+        <label for="mes_id">Mes de vencimiento</label>
+        <select name="mes" id="mes_id">
+            <option value="">01</option>
+            <option value="">02</option>
+            <option value="">03</option>
+            <option value="">04</option>
+            <option value="">05</option>
+            <option value="">06</option>
+            <option value="">07</option>
+            <option value="">08</option>
+            <option value="">09</option>
+            <option value="">10</option>
+            <option value="">11</option>
+            <option value="">12</option>
+        </select>
+
+        <label for="año_id">CVV</label>
+        <input type="number" name="año" id="año_id" min="2020" max="2031"> <!--No se como poner los parametros de un minimo y maximo de año permitido-->
+
+        <label for="codigo_id">Codigo de seguridad</label>
+        <input type="password" name="seguridad" id="codigo_id">
+
+        <br>
+        <button type="submit">PAGAR</button>
+
+    </form>
+</body>
+</html>

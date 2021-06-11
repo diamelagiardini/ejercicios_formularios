@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/grupoclarin/WRK44JYT3RDQLOE75EOBJCOJWQ.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+form{
+  margin: 10px;
+}
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.flexible_ {
+  width:370px;
+  height:auto;
+  color: black;
+  margin-right: 40px;
+  margin-top: 20%;
+  background-color: white;
+}
+
+.flexible {
+  width: 450px;
+  height: 250px;
+  color:white;
+  margin-right: 40px;
+  margin-top: 20%;
+}
+
+.div_check > label {
+  display: flex;
+  flex-direction: column;
+}
+
+#row {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+.div_check {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding: 8px;
+}
+
+.flex_row {
+  margin-top: 20px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+input{
+  
+  padding:10px;
+  width: 91%;
+  background-color:#EBECEE;
+  border: none;
+}
+
+button{
+
+margin: 10px;
+padding: 10px;
+background-color: #1e62d8;
+border-radius: 5px;
+border: 1px solid #1e62d8;
+color: white;
+}
+
+button:hover{
+
+  margin: 10px;
+  padding: 10px;
+  background-color: #3572DC;
+  border-radius: 5px;
+  border: 1px solid #3572DC;
+  color: white;
+}
+
+
+#titulo{
+  font-size: 52px;
+  font-weight: 700;
+
+}
+
+#parrafo{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.fuente_form{
+    font-size: 14px;
+    font-weight: 700;
+}
